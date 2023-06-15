@@ -8,7 +8,7 @@
 @area
     @name           davids_room
     @title          David's Bedroom
-    @description    You are standing in a small bedroom, which quite obviously belongs to a college student. There are clothes covering half the floor, and a twin-sized mattress sits unadornedly on the left side. In front of you is a cheap flat-pack desk (probably from Wal-Mart). Behind the desk, the monotony of the walls is interrupted by a window. You notice that the window is covered by a temporary paper shade. A door to the east leads back to the hallway.
+    @description    Vous êtes debout dans une petite chambre, qui appartient de toute évidence à un étudiant. Il y a des vêtements couvrant la moitié du sol et un matelas de taille double se trouve sans fioritures sur le côté gauche. Devant vous se trouve un bureau plat bon marché (probablement de Wal-Mart). Derrière le bureau, la monotonie des murs est interrompue par une fenêtre. Vous remarquez que la fenêtre est recouverte d’un abat-jour temporaire en papier. Une porte à l’est mène au couloir.
     @objects        computer, paper_shade
     @exits
         @door @east hallway
@@ -16,14 +16,15 @@
 @area
     @name           kyles_room
     @title          Kyle's Bedroom
-    @description    You find yourself in an empty bedroom. Besides the carpet on the floor, there's not much to look at here. The resident must have moved out (probably graduated).
+    @description    Vous vous retrouvez dans une chambre vide. À part la moquette sur le sol, il n’y a pas grand-chose à regarder ici. Le résident doit avoir déménagé (probablement diplômé).
+    
     @exits
         @door @west hallway
         
 @area
     @name           chris_room
     @title          Chris' Bedroom
-    @description    You stand in a small bedroom, which probably belongs to a chemical engineer. The desk looks like it can't decide whether it wants to be messy or immaculate, probably a reflection of its user. Surprisingly, there is an actual full-size bed butted up against the side of the desk. There's also a large rotating chair in the middle. It's hard to maneuver in here!
+    @description    Vous vous tenez dans une petite chambre, qui appartient probablement à un ingénieur chimiste. Le bureau semble ne pas pouvoir décider s’il veut être désordonné ou immaculé, probablement le reflet de son utilisateur. Étonnamment, il y a un vrai lit pleine grandeur contre le côté du bureau. Il y a aussi une grande chaise rotative au milieu. C’est difficile à manœuvrer ici!
     @objects        bed, periodic_table
     @exits
         @door @south hallway
@@ -31,7 +32,7 @@
 @area
     @name           jerrys_room
     @title          Jerry's Bedroom
-    @description    You are standing in a mid-sized bedroom. On one side of the room sits a large desk, cluttered with a jumble of computing equipment and papers. On the other side of the room, you find a large bed. There doesn't seem to be a whole lot else here!
+    @description    Vous êtes debout dans une chambre de taille moyenne. D’un côté de la pièce se trouve un grand bureau, encombré d’un fouillis de matériel informatique et de papiers. De l’autre côté de la pièce, vous trouverez un grand lit. Il ne semble pas y avoir grand-chose d’autre ici!
     @objects        bed
     @exits
         @door @south hallway
@@ -39,7 +40,7 @@
 @area
     @name           hallway
     @title          Hallway
-    @description    You are standing in a short hallway with a closet. There are bedroom doors at the east and west ends of the hallway, and two on the north wall. On the opposite wall, there is a closet with what appears to be a jury-rigged doorbell. A stairway leads back down to the first floor.
+    @description    Vous êtes debout dans un court couloir avec un placard. Il y a des portes de chambre aux extrémités est et ouest du couloir, et deux sur le mur nord. Sur le mur opposé, il y a un placard avec ce qui semble être une sonnette truquée par un jury. Un escalier mène au premier étage.
     @exits
         @door @west davids_room
         @door @east kyles_room
@@ -50,7 +51,7 @@
 @area
     @name           sitting_room
     @title          Sitting room
-    @description    You're in what seems to be the main room of the townhouse (the sitting room). There is a cheap-looking couch and a TV on a stand.
+    @description    Vous êtes dans ce qui semble être la pièce principale de la maison de ville (le salon). Il y a un canapé bon marché et une télévision sur un support.
     @objects        wii_game
     @exits
         @up @stairs hallway
@@ -58,43 +59,43 @@
 @object
     @name           computer
     @title          @a computer
-    @tagline        On top of the desk sits a computer.
-    @description    The computer looks pretty modern--there are two large LCD monitors connected to it, side-by-side. It's turned on and there is a sticky note on the desktop: "finish game." You are a little puzzled.
+    @tagline        Sur le bureau se trouve un ordinateur.
+    @description    L’ordinateur a l’air assez moderne - il y a deux grands moniteurs LCD qui y sont connectés, côte à côte. Il est allumé et il y a un post-it sur le bureau: « terminer le jeu ». Vous êtes un peu perplexe.
     @nouns			computer
-    @carry?         @no It's called a desktop for a reason.
+    @carry?         @no C’est ce qu’on appelle un ordinateur de bureau pour une raison.
     
 @object
     @name           bed
     @title          @a bed
-    @description    You're surprised to find such a large bed in a room belonging to a college student.
+    @description    Vous êtes surpris de trouver un si grand lit dans une chambre appartenant à un étudiant.
     @nouns			bed
     @carry?         @no
     
 @object
     @name           periodic_table
     @title          @a periodic table
-    @tagline        There is a periodic table plastered on the wall.
-    @description    It's a periodic table, alright. It's got everything from hydrogen to radon, including all the made-up elements such as lawrencium. This one is super shiny!
+    @tagline        Il y a un tableau périodique accroché sur le mur.
+    @description    C’est un tableau périodique, d’accord. Il contient tout, de l’hydrogène au radon, y compris tous les éléments inventés tels que le lawrencium. Celui-ci est super brillant!
     @nouns			table
     @adjs			periodic
-    @carry?         @yes You roll up the periodic table and stow it away in your jeans.
+    @carry?         @yes Vous enroulez le tableau périodique et le rangez dans votre jean.
 
 @object
     @name           paper_shade
     @title          @a paper shade
-    @description    It's a temporary shade. Nothing special about it, really.
+    @description     C’est une ombre temporaire. Rien de spécial à ce sujet, vraiment.
     @nouns			shade, blinds, blind
     @adjs			paper, temporary, window
-    @carry?         @yes You shove the paper shade into your trousers.
+    @carry?         @yes Vous enfoncez l’abat-jour en papier dans votre pantalon.
     
 @object
     @name           wii_game
     @title          @a Wii game
     @nouns			game, disc, cd
     @adjs			wii, game
-    @tagline        A Wii game sits on top of the TV.
-    @description    It's a Wii game disc labeled "Wii Sports."
-    @carry?         @yes You shove the Wii disc into your back pants pocket. Better not sit down on anything hard!
+    @tagline         Un jeu Wii se trouve au-dessus du téléviseur.
+    @description    C’est un disque de jeu Wii étiqueté « Wii Sports ».
+    @carry?         @yes Vous glissez le disque Wii dans la poche arrière de votre pantalon. Mieux vaut ne pas s’asseoir sur quelque chose de dur!
 
 
 
